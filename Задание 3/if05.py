@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+c = int(input())
+pos_count = (a > 0) + (b > 0) + (c > 0)
+neg_count = (a < 0) + (b < 0) + (c < 0)
+print(pos_count)
+print(neg_count)
